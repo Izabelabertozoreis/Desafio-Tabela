@@ -1,0 +1,247 @@
+*{
+    margin: 100;
+    padding: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+
+}
+
+header{
+    background-color: rgb(214, 214, 214);
+    color: rgb(5, 5, 5);
+    font-size: 300%;
+    height: 100px;
+    padding-top: 2%;
+    padding-left: 2%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.elements,.metaisTransition, .hidro, .alcalinos, .alcalinosTerra, .trasicao, .ametais,
+    .semeMetais, .nobre, .sinteticos, .lantanideos, .actinideos{
+        border: 1px solid #000; 
+        text-align: center;
+        padding: 6px;
+        border-radius: 10px;
+        border-color: solid #000; 
+
+        
+
+        
+}
+
+table{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 12px;
+    box-shadow:  rgba(.1, .10, .10, .1);
+
+    
+}
+
+td{
+    width: 20px;
+    height: 20px;
+}
+
+.tamanho{
+    width: 20px;
+    height: 20px;
+}
+
+th{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.familia{
+    font-size:13px;
+    
+}
+
+
+.hidro{
+    background-color: #6ccc6c;
+    border-radius: 10px;
+    border-color:#6ccc6c;
+    
+
+    
+}
+
+.hidro:hover{
+    background-color: rgba(70, 207, 70, 0.4);
+    border-radius: 10px;
+    border-color:rgba(70, 207, 70, 0.4);
+    transform: scale(1.5);
+}
+
+.alcalinos{
+    background-color: #dfbe4a;
+    border-radius: 10px;
+    border-color:#dfbe4a;
+}
+
+.alcalinos:hover{
+    background-color: rgba(255,216,88,0.4);
+    border-radius: 10px;
+    border-color:rgba(255,216,88,0.4);
+    transform: scale(1.5);
+}
+
+.alcalinosTerra{
+    background-color:#ffff00;
+    border-radius: 10px;
+    border-color:#ffff00;
+}
+
+.alcalinosTerra:hover{
+    background-color: rgba(255,255,0,0.4);
+    border-radius: 10px;
+    border-color:rgba(255,255,0,0.4);
+    transform: scale(1.5);
+}
+
+.trasicao{
+    background-color:#a2ebeb;
+    border-radius: 10px;
+    border-color:#a2ebeb;
+}
+
+.trasicao:hover{
+    background-color: rgba(162,235,235,0.4);
+    border-radius: 10px;
+    border-color:rgba(162,235,235,0.4);
+    transform: scale(1.5);
+}
+
+.ametais{
+    background-color: #99ee99;
+    border-radius: 10px;
+    border-color:#99ee99;
+}
+
+.ametais:hover{
+    background-color: rgba(144,238,144,0.4);
+    border-radius: 10px;
+    border-color:rgba(144,238,144,0.4);
+    transform: scale(1.5);
+}
+
+.semeMetais{
+    background-color: #26caed;
+    border-radius: 10px;
+    border-color:#26caed;
+}
+
+.semeMetais:hover{
+    background-color: rgba(38,202,237,0.4);
+    border-radius: 10px;
+    border-color:rgba(38,202,237,0.4);
+    transform: scale(1.5);
+}
+
+.nobre{
+    background-color: #c97e87;
+    border-radius: 10px;
+    border-color:#c97e87;
+}
+
+.nobre:hover{
+    background-color: rgba(163,85,94,0.4);
+    border-radius: 10px;
+    border-color:rgba(163,85,94,0.4);
+    transform: scale(1.5);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+    
+}
+
+.metaisTransition{
+    background-color: #ffa500;
+    border-radius: 10px;
+    border-color:#ffa500;
+    
+}
+
+.metaisTransition:hover{
+    background-color:rgba(255,165,0,0.4);
+    border-radius: 10px;
+    border-color:rgba(255,165,0,0.4);
+    transform: scale(1.5);
+
+}
+
+.sinteticos{
+    background-color:#d3d3d3;
+    border-radius: 10px;
+    border-color:#d3d3d3;
+}
+
+.sinteticos:hover{
+    background-color:rgba(211,211,211,0.4);
+    border-radius: 10px;
+    border-color:rgba(211,211,211,0.4);
+    transform: scale(1.5);
+}
+
+.lantanideos{
+    background-color: #e8dcca;
+    border-radius: 10px;
+    border-color:#e8dcca;
+}
+
+.lantanideos:hover{
+    background-color: rgba(232,220,202,0.4);
+    border-radius: 10px;
+    border-color:rgba(232,220,202,0.4);
+    transform: scale(1.5);
+    
+    
+}
+
+.actinideos{
+    background-color: #c3a06e;
+    border-radius: 10px;
+    border-color:#c3a06e;
+}
+
+.actinideos:hover{
+    background-color: rgba(195,160,110,0.4);
+    border-radius: 10px;
+    border-color:rgba(195,160,110,0.4);
+    transform: scale(1.5);
+}
+
+input{
+    margin-left: 25px;
+    height: 25px;
+    width: 25px;
+}
+
+.text{
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.legenda{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 50px 50px 50px 50px rgba(.1, .10, .10, .1);
+    border-radius: 8px;
+    margin-right: 40px;
+   
+    
+}
